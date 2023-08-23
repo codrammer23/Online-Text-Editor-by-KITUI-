@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Text Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>A SIMPLE ONLINE TEXT EDITOR</h1>
+    <h2>Created by: Emmanuel Kitui at 16yrs</h2>
+    <div>
+      <button onclick="setColor()">Set Color</button>
+      <input type="value" class="color" />
+    </div>
+    <div>
+      <button onclick="toggleUnderline()">Underline</button>
+      <button onclick="toggleItalic()">Italics</button>
+      <button onclick="toggleBold()">Bold</button>
+      <button onclick="toggleMonospace()">Monospace</button>
+      <button onclick="removeFormat()">Remove Format</button>
+    </div>
+    <div>
+      <input
+        id="words"
+        style="height: 100px; width: 250px"
+        placeholder="write your text here"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
